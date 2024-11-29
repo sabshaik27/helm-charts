@@ -1,0 +1,6 @@
+enabled: true
+replicaCount: 1
+image:
+  repository: httpd
+  tag: "latest"
+

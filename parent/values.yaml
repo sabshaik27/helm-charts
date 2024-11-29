@@ -1,0 +1,13 @@
+child1:
+  replicaCount: 2
+  enabled: true
+  image:
+    repository: nginx
+    tag: "1.21"
+
+child2:
+  enabled: false
+  service:
+    type: ClusterIP
+    port: 80
+

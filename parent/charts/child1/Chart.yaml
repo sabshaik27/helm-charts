@@ -1,0 +1,5 @@
+apiVersion: v2
+name: child1
+description: Subchart for Deployment
+version: 1.0.0
+
